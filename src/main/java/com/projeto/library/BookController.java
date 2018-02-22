@@ -1,5 +1,22 @@
 package com.projeto.library;
 
-public class BookController {
+import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.projeto.library.model.Book;
+import com.projeto.library.service.BookService;
+
+@RestController
+public class BookController {
+	
+	@Autowired
+	private BookService bookService;
+	
+	@GetMapping("/book")
+	public List<Book> list(){
+		return bookService.list();		
+	}
 }

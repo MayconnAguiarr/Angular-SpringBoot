@@ -1,0 +1,1 @@
+insert into Book (author, title, category, bookShelf) values ('Oliveira Lima', ' O Movimento da Independência - 1821- 1822', '1', ' prateleira 4' );
