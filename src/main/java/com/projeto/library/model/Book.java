@@ -23,9 +23,6 @@ public class Book {
 	@NotEmpty
 	private String category;
 	
-	@NotEmpty
-	private String bookShelf;
-
 	public Long getId() {
 		return id;
 	}
@@ -56,14 +53,6 @@ public class Book {
 
 	public void setCategory(String category) {
 		this.category = category;
-	}
-
-	public String getBookShelf() {
-		return bookShelf;
-	}
-
-	public void setBookShelf(String bookShelf) {
-		this.bookShelf = bookShelf;
 	}
 
 	@Override
