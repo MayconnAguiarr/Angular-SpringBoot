@@ -1,7 +1,7 @@
 #libraryAPI 
 
 ## Objetivo
-   Esse repositório foi criado para fins didáticos.
+   Esse repositório foi criado para fins didáticos.<br>
    Essa API tem por objetivo consultar e cadastrar livros.
    
 ## Tecnologias usadas  
@@ -24,4 +24,4 @@
   5. Se preferir executar a parte Front-end dessa aplicação back-end em  https://github.com/MayconnAguiarr/library-ui    
   
 ## URI
-   Listar/Cadastrar    - http://localhost:8080/livros
+   Listar/Cadastrar - http://localhost:8080/livros
